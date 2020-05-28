@@ -1,0 +1,23 @@
+{
+    "name": "demored/test_composer",
+    "description": "test composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "demored",
+            "email": "demored@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php":">=7.0"
+    },
+    
+    "autoload":{
+    	"psr-4":{
+    		"Flower\\Rose\\":"Flower/Rose/",
+    		"Flower\\Lily\\":"Flower/Lily/"
+    	}
+    }
+}
